@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# QR Code Generator Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web app project in order to generate QR codes from a text, size & background color via integration with qr-code-generator-backend.
+
+This project is implemented with React 18.1.0.
+
+# Getting Started with Create React QrCodeGeneratorWebApp
+
+This project was bootstrapped with [Create React QrCodeGeneratorWebApp](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -41,7 +47,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the [Create React QrCodeGeneratorWebApp documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
@@ -53,7 +59,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/c
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+### Making a Progressive Web QrCodeGeneratorWebApp
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
