@@ -33,7 +33,7 @@ function QrCodeGeneratorWebApp() {
                         (e) => {
                             setQrCodeText(e.target.value)
                         }}
-                           placeholder="Enter text to Generate QR Code"/>&nbsp;&nbsp;
+                           placeholder="Enter Link to Generate QR Code"/>&nbsp;&nbsp;
                     <button className="button"
                             onClick={handleClick}>
                         Generate
