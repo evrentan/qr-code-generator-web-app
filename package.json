@@ -3,7 +3,6 @@
   "homepage": "https://qr-code-generator-web-app.herokuapp.com",
   "version": "1.0.0",
   "private": true,
-  "proxy": "https://qr-code-generator-backend.herokuapp.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
