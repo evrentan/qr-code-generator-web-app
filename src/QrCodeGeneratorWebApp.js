@@ -14,7 +14,6 @@ function QrCodeGeneratorWebApp() {
     };
 
 
-
     // Updating the input qrCodeText when user clicks on the generate button & call backend api to generate QR code
     function handleClick() {
         QrCodeService.generateQrCode(createGenerateQrCodeRequest(qrCodeText, size, backGroundColor))
@@ -63,8 +62,9 @@ function QrCodeGeneratorWebApp() {
                 </a>
             </div>
             <footer>
-                <p align = "center">Developed by <a href="https://github.com/evrentan">Evren Tan</a> </p>
-                <p align = "center">&copy; {getCurrentYear()}</p>
+                <p align="center">Developed by <a href="https://github.com/evrentan" target="_blank"
+                                                  rel="noopener noreferrer">Evren Tan</a></p>
+                <p align="center">&copy; {getCurrentYear()}</p>
             </footer>
         </div>
     );
