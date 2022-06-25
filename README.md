@@ -4,6 +4,8 @@ This project is a web app project in order to generate QR codes from a text, siz
 
 This project is implemented with React 18.1.0.
 
+QR Code Generator Backend serves on a [Heroku][heroku-reference] instance in production from the [QR Code Generator Web App Link][qr-code-generator-web-app-link].
+
 # Getting Started with Create React QrCodeGeneratorWebApp
 
 This project was bootstrapped with [Create React QrCodeGeneratorWebApp](https://github.com/facebook/create-react-app).
@@ -74,3 +76,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+[heroku-reference]: https://heroku.com
+[qr-code-generator-web-app-link]: https://qr-code-generator-web-app.herokuapp.com
