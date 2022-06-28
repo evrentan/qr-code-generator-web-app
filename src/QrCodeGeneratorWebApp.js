@@ -55,7 +55,7 @@ function QrCodeGeneratorWebApp() {
             </div>
             <div className="output-box">
                 <img src={qrCode} alt="Generated QR Code"/>
-                <a href={qrCode} download="QRCode">
+                <a href={qrCode} download="QRCode.png">
                     <button type="button">Download</button>
                 </a>
             </div>
