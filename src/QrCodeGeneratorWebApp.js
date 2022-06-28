@@ -9,16 +9,14 @@ function QrCodeGeneratorWebApp() {
     const [backGroundColor, setBackGroundColor] = useState("ffffff");
     const [qrCode, setQrCode] = useState("");
 
-    const getCurrentYear = () => {
-        return new Date().getFullYear();
-    };
+    const gitHubLogo = require("./shared/images/GitHub_Logo.png");
 
 
     // Updating the input qrCodeText when user clicks on the generate button & call backend api to generate QR code
     function handleClick() {
         QrCodeService.generateQrCode(createGenerateQrCodeRequest(qrCodeText, size, backGroundColor))
             .then(response => {
-                let sourceValue = "data:image/png;base64," + response.data;
+                let sourceValue = "data:images/png;base64," + response.data;
                 setQrCode(sourceValue);
             })
             .catch((error) => {
@@ -62,9 +60,16 @@ function QrCodeGeneratorWebApp() {
                 </a>
             </div>
             <footer>
-                <p align="center">Developed by <a href="https://github.com/evrentan" target="_blank"
-                                                  rel="noopener noreferrer">Evren Tan</a></p>
-                <p align="center">&copy; {getCurrentYear()}</p>
+                <div className="footer">
+                    <p align="center">Developed by <a href="https://github.com/evrentan" target="_blank"
+                                                      rel="noopener noreferrer">Evren Tan</a></p>
+                    <p align="center">Open Source <img src={gitHubLogo} alt="GitHub Logo"></img> Repo for <a
+                        href="https://github.com/evrentan/qr-code-generator-web-app" target="_blank"
+                        rel="noopener noreferrer">FrontEnd Web App</a></p>
+                    <p align="center">Open Source <img src={gitHubLogo} alt="GitHub Logo"></img> Repo for <a
+                        href="https://github.com/evrentan/qr-code-generator-backend" target="_blank"
+                        rel="noopener noreferrer">BackEnd</a></p>
+                </div>
             </footer>
         </div>
     );
